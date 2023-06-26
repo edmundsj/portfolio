@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Jordan - Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Projects</h1>
+                        <p>Some samples of the what, why, and how behind my work</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
+                                <h2><a href="https://github.com/edmundsj/rcwa">Rigorous Coupled Wave Analysis</a></h2>
+                                <strong>The Problem</strong>
+                                <p>
+                                Computational electromagnetics is really complicated. Calculating electromagnetic properties of structures can be time-consuming and difficult to set up. When I was a graduate student, I was repeatedly frustrated at how difficult it was to simulate the structures that I was interested in studying. The few packages that did exist were old - most were distributed as C programs requiring compilation and without a straightforward API. They weren't feasible for researchers to use to ask the questions that they wanted to ask.
+                                </p>
+                                <strong>The Solution</strong>
+                                <br/>
+                                <p>
+                                I set out to write a package that would be broadly accessible without compromising on performance, with a clear, declarative API, while being flexible enough to be used as part of larger programs or efforts.
+                                </p>
+                                <p>
+                                I chose python as the language to write this software in, as it is the most commonly-used language by academic researchers. While technically an interpreted language, it offers C-like performance with optimized numerical computating libraries like numpy, giving researchers the best of both worlds. This is especially important in computational electromagnetics, where researchers may want to run hundreds or thousands of different simulation conditions.
+                                </p>
+                                <strong>Major Challenges</strong>
+                                <br/>
+                                <p>
+                                The biggest challenge was decoupling the modules of this software as much as possible. Because of the way the math works behind the type of simulation I was performing, circular dependencies are almost unavoidable. Avoiding these by careful architectural design (and re-design, and re-re-design) to make the API clear, simple, and loosely coupled was the biggest challenge.
+                                </p>
+
+                                <h2><a href="https://github.com/edmundsj/ankilol">Ankilol</a></h2>
+                                <strong>The Problem</strong>
+                                <br/>
+                                <p>
+                                Coming soon
+                                </p>
+
+                                <strong>The Solution</strong>
+                                <br/>
+                                <p>
+                                Coming soon
+
+                                </p>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+                    <footer id="footer">
+						<section>
+							<h2>Working with me</h2>
+                            <p>Want to work together? Think I would be a good fit for a particular role? I'd love to hear from you! Shoot me an e-mail or message me on Linkedin.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn More</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Contact Me</h2>
+							<dl class="alt">
+								<dt>Location</dt>
+                                <dd>Pittsburgh, PA</dd>
+								<dt>Email</dt>
+                                <dd><a href="#">jordan.l.edmunds - at - gmail.com</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="https://medium.com/@jordan.l.edmunds" class="icon brands fa-medium alt"><span class="label">Medium</span></a></li>
+								<li><a href="https://www.youtube.com/@JordanEdmundsEECS" class="icon brands fa-youtube -f alt"><span class="label">YouTube</span></a></li>
+								<li><a href="https://github.com/edmundsj" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/jordan-edmunds-eecs/" class="icon brands fa-linkedin alt"><span class="label">Linkedin</span></a></li>
+							</ul>
+						</section>
+                        <p class="copyright">&copy; Jordan Edmunds, 2023:</p>
+					</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
